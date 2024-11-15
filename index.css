@@ -1,0 +1,94 @@
+.navbar{
+    height: auto;
+    padding: 18px;
+
+}
+.home-main{
+    width: 100%;
+    height: 400px;
+    background-color: #dadbf1;
+}
+.home-main > h1{
+    font-size: 70px;
+}
+.singInBtn{
+    background-color: #4C5FD5;
+}
+
+.home-main > form > input{
+    width: 700px;
+    height: 55px;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-main > h1{
+        font-size: 40px;
+    }
+    .home-main > form > input{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .home-main > h1{
+        font-size: 30px;
+    }
+    .home-main > form > input{
+        width: 300px;
+    }
+}
+
+
+/* card section  */
+
+.arrow{
+    color: 
+       #4C5FD5;
+   }
+
+@media screen and (max-width: 768px) {
+    
+    .card{
+        width: 100% !important;
+        height: 300px !important;
+     
+    }
+    .card > div > div >img{
+        width: 20%;
+    }
+    .card>div{
+        gap: 20px;
+    }
+    
+    
+}
+
+
+/* footer section  */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.last-in-foot{
+    margin-top: 200px;
+}
+.last-in-foot > div{
+    width: 75%;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    
+    .last-in-foot{
+        margin-top: 50px;
+        
+    }
+    .last-in-foot > div{
+        width: 100%;
+    }
+    
+}
+
